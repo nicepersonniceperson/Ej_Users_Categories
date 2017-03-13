@@ -1,0 +1,14 @@
+{
+
+  "manifest_version": 2,
+  "name": "Ej_Users_Categories",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.ejaaba.com/ask"],
+      "js": ["add_categories.js"]
+    }
+  ]
+
+}
